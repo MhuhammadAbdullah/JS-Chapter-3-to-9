@@ -1,4 +1,4 @@
-// Assignment : 01 VARIABLES FOR NUMBERS
+// Chapter : 04 VARIABLES FOR NUMBERS
 
 // Question : 01
 
@@ -19,3 +19,12 @@
 
 // var onlineStore = ("<b>John Doe</b> ordered 5 <b>T-shirt's</b> on <b>XYZ</b> Clothing store");
 // document.write(onlineStore );
+
+
+// Chapter : 05 VARIABLE NAMES: LEGAL & ILLEGAL 
+// Question : 01
+
+// var x=web, y=app, z=development
+
+// Question : 02
+
