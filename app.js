@@ -290,3 +290,12 @@
 // document.write("Value of a:", a + "<br>");
 // document.write("Value of b:", b + "<br>");
 // document.write("Value of result:", result);
+
+
+// Question : 03
+
+// var userName = prompt("Please Enter Your username")
+// alert("Hello, " + userName + " Welcom to this Website!")
+
+// Question : 04
+
