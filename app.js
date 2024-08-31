@@ -299,3 +299,45 @@
 
 // Question : 04
 
+// window.onload = function() {
+//     var num = prompt("Enter a number (or leave blank for default 5):");
+
+//     num = num === "" || num === null ? 5 : num;
+
+//     var table = "";
+//     var i = 1; // Initialization
+//     while (i <= 10) { // While loop instead of for loop
+//         table += `${num} x ${i} = ${num * i}\n`;
+//         i++; // Increment
+//     }
+
+//     // Alert box mein table show karna
+//     alert(`Multiplication Table of ${num}\n\n${table}`);
+// };
+
+// Question : 05
+
+// var subject1 = prompt("Enter the name of the first subject:");
+// var subject2 = prompt("Enter the name of the second subject:");
+// var subject3 = prompt("Enter the name of the third subject:");
+
+// var totalMarksPerSubject = 100;
+
+// var obtainedMarks1 = parseInt(prompt(`Enter the obtained marks for ${subject1}:`));
+
+// var obtainedMarks2 = parseInt(prompt(`Enter the obtained marks for ${subject2}:`));
+// var obtainedMarks3 = parseInt(prompt(`Enter the obtained marks for ${subject3}:`));
+
+// var totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
+// var totalMarks = totalMarksPerSubject * 3; // 3 subjects ke liye total marks
+// var percentage = (totalObtainedMarks / totalMarks) * 100;
+
+// document.write("<h2>Result</h2>");
+// document.write("<table border='1'>");
+// document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
+// document.write(`<tr><td>${subject1}</td><td>${totalMarksPerSubject}</td><td>${obtainedMarks1}</td></tr>`);
+// document.write(`<tr><td>${subject2}</td><td>${totalMarksPerSubject}</td><td>${obtainedMarks2}</td></tr>`);
+// document.write(`<tr><td>${subject3}</td><td>${totalMarksPerSubject}</td><td>${obtainedMarks3}</td></tr>`);
+// document.write(`<tr><td><strong>Total</strong></td><td>${totalMarks}</td><td>${totalObtainedMarks}</td></tr>`);
+// document.write(`<tr><td colspan='3'><strong>Percentage: ${percentage.toFixed(2)}%</strong></td></tr>`);
+// document.write("</table>");
