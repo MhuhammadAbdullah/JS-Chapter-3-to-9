@@ -324,7 +324,6 @@
 // var totalMarksPerSubject = 100;
 
 // var obtainedMarks1 = parseInt(prompt(`Enter the obtained marks for ${subject1}:`));
-
 // var obtainedMarks2 = parseInt(prompt(`Enter the obtained marks for ${subject2}:`));
 // var obtainedMarks3 = parseInt(prompt(`Enter the obtained marks for ${subject3}:`));
 
@@ -333,8 +332,8 @@
 // var percentage = (totalObtainedMarks / totalMarks) * 100;
 
 // document.write("<h2>Result</h2>");
-// document.write("<table border='1'>");
-// document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
+// document.write("<table>");
+// document.write("<tr><th>Subject</th>&nbsp;&nbsp;<th>Total Marks</th>&nbsp;&nbsp;<th>Obtained Marks</th></tr>");
 // document.write(`<tr><td>${subject1}</td><td>${totalMarksPerSubject}</td><td>${obtainedMarks1}</td></tr>`);
 // document.write(`<tr><td>${subject2}</td><td>${totalMarksPerSubject}</td><td>${obtainedMarks2}</td></tr>`);
 // document.write(`<tr><td>${subject3}</td><td>${totalMarksPerSubject}</td><td>${obtainedMarks3}</td></tr>`);
